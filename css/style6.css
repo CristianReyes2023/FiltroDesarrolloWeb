@@ -1,0 +1,312 @@
+@font-face {
+    font-family: kollektif;
+    src: url(/kollektif/Kollektif.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ESTILOS PARA EL NAVBAR */
+body{
+    font-family: kollektif;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 15vh;
+    gap: 8%;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+    width: 15%;
+}
+.menu-principal{
+    font-size: 1.2rem;    
+}
+
+.repair-express{
+    font-size: 1.4rem;
+}
+
+.logo{
+    background-image: url(../images/RepairExpress.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    width: 25%;
+    height: 70%;
+}
+
+hr{
+    margin-top: 0%;
+    width: 80%;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+
+}
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+.textoinicio{
+    margin: 2% 1% 2% 1%;
+}
+#bloque1{
+    display: flex;
+    width: 90%;
+    margin: 5% 5% 0% 5%;
+}
+.bloqueinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 33.3%;
+}
+.bloqueinfo:nth-of-type(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -20px;
+    width: 33.3%;
+}
+.subtitle{
+    font-size: calc(10px + 1.2vw);
+    text-align: center;
+    padding: 0% 2% 0% 2%;
+}
+.texto{
+    font-size: calc(5px + 1.2vw);
+    text-align: center;
+    font-weight: 300;
+    padding: 0% 2% 0% 2%;
+}
+.button1{
+    font-weight: 300;
+    width: 110px;
+    height: 30px;
+    margin: 0% 0% 0% 2%;
+    border-radius: calc(10px + 0.8vw);
+    background-color: rgb(0, 80, 245);
+    color:white;
+    border: none;
+}
+.imginfo{
+    width: 80%;
+    margin: 5% 0% 0% 0%;
+}
+
+#bloquemaps{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#bloquemaps2{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+#bloquebutton{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    
+}
+#bloquemaps3{
+    display: flex;
+    width: 80%;
+    margin: 0% 0% 4% 0%;
+}
+#bloquemaps31{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+#bloquemaps32{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    font-size: calc(1px + 1vw);
+    text-align: justify;
+    font-weight: 300;
+    padding: 0% 2% 0% 2%;
+}
+#bloquemaps32 p:nth-of-type(2){
+    color: gray;
+}
+.imginfo2{
+    height: calc(20px + 1vw);
+}
+.button2{
+    font-weight: 300;
+    width: 100%;
+    height: 60%;
+    margin: 0% 0% 0% 2%;
+    border-radius: calc(10px + 0.8vw);
+    background-color: rgb(245, 0, 0);
+    font-size: calc(1px + 1vw);
+    color:white;
+    border: none;
+}
+.subtexto{
+    font-size: calc(1px + 1.2vw);
+    font-weight: 300;
+    text-align: start;
+    padding: 0% 2% 0% 2%;
+    color: gray;
+}
+#tecnico {
+    width: 80%;
+    text-align: start;
+    margin: 0% 0% 5% 0%;
+}
+#nombretecnico {
+    width: 80%;
+    padding: 0% 0% 0% 20%;
+    text-align: start;
+    font-size: calc(1px + 1.2vw);
+}
+#nombretecnico p:nth-of-type(2){
+    width: 80%;
+    padding: 0% 0% 0% 20%;
+    text-align: start;
+    font-size: calc(1px + 1.2vw);
+    color: gray;
+}
+#nombretecnico img{
+    width: 12%;
+    font-size: calc(1px + 1.2vw);
+}
+#redes{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 5% 0% 0% 0%;
+}
+.button3{
+    font-weight: 300;
+    width: 110px;
+    height: 30px;
+    margin: 0% 0% 0% 2%;
+    border-radius: calc(10px + 0.8vw);
+    background-color: rgb(0, 80, 245);
+    color:white;
+    border: none;
+}
+#buttonexit{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0% 0% 3% 0%;
+}
+@media (max-width:435px){
+    #bloque1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 5% 5% 0% 5%;
+    }
+    .bloqueinfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+    .bloqueinfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+    .bloqueinfo:nth-of-type(3){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        top: 0px;
+        margin: 3% 0% 0% 0%;
+        width: 90%;
+    }
+    .subtitle{
+        font-size: calc(10px + 1.2vw);
+        text-align: center;
+        padding: 0% 2% 0% 2%;
+        margin: 2% 0% 2% 0%;
+    }
+    .texto{
+        font-size: calc(5px + 1.2vw);
+        text-align: center;
+        font-weight: 300;
+        padding: 0% 2% 0% 2%;
+        margin: 2% 0% 2% 0%;
+    }
+    .subtexto{
+        font-size: calc(6px + 1.2vw);
+        font-weight: 300;
+        text-align: start;
+        padding: 0% 2% 0% 2%;
+        color: gray;
+    }
+    .button2{
+    font-weight: 300;
+    width: 100%;
+    height: 60%;
+    margin: 0% 0% 0% 2%;
+    border-radius: calc(10px + 0.8vw);
+    background-color: rgb(245, 0, 0);
+    font-size: calc(8px + 1vw);
+    color:white;
+    border: none;
+    }
+    #bloquemaps32{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        font-size: calc(7px + 1vw);
+        text-align: justify;
+        font-weight: 300;
+        padding: 0% 2% 0% 2%;
+    }
+    #nombretecnico {
+        width: 80%;
+        padding: 0% 0% 0% 20%;
+        text-align: start;
+        font-size: calc(7px + 1.2vw);
+    }
+    #nombretecnico p:nth-of-type(2){
+        width: 80%;
+        padding: 0% 0% 0% 20%;
+        text-align: start;
+        font-size: calc(7px + 1.2vw);
+        color: gray;
+    }
+}

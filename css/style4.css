@@ -1,0 +1,153 @@
+@font-face {
+    font-family: kollektif;
+    src: url(/kollektif/Kollektif.ttf);
+}
+
+/* ESTILOS PARA EL NAVBAR */
+body{
+    font-family: kollektif;
+    font-size: 16px;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 15vh;
+    gap: 8%;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+    width: 15%;
+}
+.menu-principal{
+    font-size: 1.2rem;    
+}
+
+.repair-express{
+    font-size: 1.4rem;
+}
+
+.logo{
+    background-image: url(../images/RepairExpress.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    width: 25%;
+    height: 70%;
+}
+
+.userID{
+    background-image: url(../images/Imagen\ 3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    position: fixed;
+    width: 9%;
+    height: 9%;
+    right: 4%;
+}
+
+hr{
+    margin-top: 0%;
+    width: 80%;
+}
+
+/* ESTILOS PARA EL CONTENIDO DE LA PAGINA*/
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+#encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 0% 4% 0%;
+}
+
+#toolrepair{
+    min-width: 45px;
+    width: calc(30px + 5vw);
+}
+#checkbox{
+    min-width: 60px;
+    width: calc(70px + 5vw);
+}
+#encabezado h3{
+    font-size: calc(15px +0.8vw);
+    margin: 0%;
+}
+#mensajefinal{
+    width: 70%;
+    margin: 0% 0% 5% 0%;
+    text-align: center;
+}
+
+#encabezado p{
+    margin: 0%;
+    font-size: 1rem;
+}
+.button1{
+    font-weight: 300;
+    width: 110px;
+    height: 30px;
+    margin: 0% 0% 0% 2%;
+    border-radius: calc(10px + 0.8vw);
+    background-color: rgb(0, 80, 245);
+    color:white;
+    border: none;
+}
+
+
+@media (min-width:436px) and (max-width:1000px){
+    .userID{
+        width: 8%;
+        height: 8%;
+        right: 2%;
+    }
+    .logo{
+        width: 20%;
+        height: 50%;
+    }
+
+
+    .menu-principal{
+        font-size: 0.8rem;    
+    }
+    
+    .repair-express{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:435px){
+    .userID{
+        width: 8%;
+        height: 8%;
+        right: 2%;
+    }
+    .logo{
+        width: 25%;
+        height: 55%;
+    }   
+
+    .menu-principal{
+        font-size: 0.6rem;    
+    }
+    
+    .repair-express{
+        font-size: 0.8rem;
+    }
+}
