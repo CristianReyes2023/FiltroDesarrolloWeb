@@ -7,7 +7,7 @@
 main {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 75vw auto auto auto auto auto auto;
+    grid-template-rows: 55vw auto auto auto auto auto auto;
     grid-template-areas: "top" "bloque2" "bloque3" "bloque4" "bloque5" "bloque6" "footer7"
 }
 
@@ -369,7 +369,7 @@ input[type="checkbox"] {
     flex-direction: column;
     align-items: center;
     width: 80vw;
-    margin: 3vw 10vw 3vw 10vw;
+    margin: 0vw 10vw 3vw 10vw;
 }
 #bloque21{
     display: flex;
